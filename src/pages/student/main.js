@@ -7,7 +7,12 @@ import index2 from './views/index2.vue'
 
 Vue.use(VueRouter)
 
-const router = new VueRouter()
+Vue.config.debug = true
+
+const router = new VueRouter({
+  history: true,
+  root: '/student.html'
+})
 
 router.map({
   '/': {
@@ -19,4 +24,9 @@ router.map({
     component: index2
   }
 })
+
+// router.redirect({
+//   '*': '/'
+// })
+
 router.start(App, 'app')

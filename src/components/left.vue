@@ -1,4 +1,8 @@
 <template lang="pug">
-  div
+  div.left
     h1 左边
 </template>
+<style lang="stylus" scoped>
+
+
+</style>

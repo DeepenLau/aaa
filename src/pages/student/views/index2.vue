@@ -1,14 +1,10 @@
 <template lang="pug">
   div
-    h1 头部
-
-    router-view(keep-alive)
-
-    h1 尾部
+    h1 student2
 </template>
 
 <script>
   export default {
-    name: 'app'
+    name: 'index2'
   }
 </script>

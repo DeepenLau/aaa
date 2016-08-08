@@ -25,7 +25,3 @@ npm run build
 - webpack
 - es6
 - eslint
-
-## node版本
-
-> v6.1

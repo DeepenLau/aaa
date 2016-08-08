@@ -1,21 +1,21 @@
 <template lang="pug">
   div
-    h1 首页
+    h1.aaa 首sdafsd
     left
     right
 </template>
 
 <style lang="stylus" scoped>
-
   h1
-    background: red
-    transition: 1s
+    background: pink
+    transition: 2s
+    display: flex
 
 </style>
 
 <script>
-  import left from '../components/left.vue';
-  import right from '../components/right.vue';
+  import left from '../../../components/left.vue'
+  import right from '../../../components/right.vue'
 
   export default {
     name: 'index',
