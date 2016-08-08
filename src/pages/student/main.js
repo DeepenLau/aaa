@@ -10,8 +10,11 @@ Vue.use(VueRouter)
 Vue.config.debug = true
 
 const router = new VueRouter({
-  history: true,
-  root: '/student.html'
+  // 貌似只能首页这是为 true
+  // 这里设置 true 会导致在 student 的页面第二个路由页面属性又重新注入 index.js 导致返回首页
+  // 设置 false 又会路由后面又会跟着 #!
+  history: false,
+  root: '/student'
 })
 
 router.map({

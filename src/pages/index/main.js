@@ -10,8 +10,7 @@ Vue.use(VueRouter)
 Vue.config.debug = true
 
 const router = new VueRouter({
-  history: true,
-  root: '/'
+  history: true
 })
 
 router.map({

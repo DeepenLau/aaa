@@ -114,7 +114,7 @@ module.exports = {
       chunks: ['vendors', 'app']
     }),
     new HtmlWebpackPlugin({
-      filename: 'student.html',
+      filename: 'student/index.html',
       template: 'pug-html!' + path.resolve(SRC_PATH, 'student.pug'),
       inject: true,
       chunks: ['student', 'vendors']
