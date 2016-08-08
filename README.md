@@ -15,13 +15,3 @@ npm run dev
 npm run build
 
 ```
-
-## 技术关键词
-
-- vue
-- vue-router
-- pug
-- stylus
-- webpack
-- es6
-- eslint
